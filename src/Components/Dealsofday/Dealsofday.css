@@ -1,0 +1,15 @@
+.deals {
+  width: 100%;
+  min-height: 94vh;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-rows: 50px repeat(3, 1fr);
+  padding: 10px 100px;
+  gap: 20px;
+}
+
+.dealshead {
+  font-size: 2em;
+  display: flex;
+  align-items: center;
+}

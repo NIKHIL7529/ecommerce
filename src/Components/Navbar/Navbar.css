@@ -1,0 +1,58 @@
+.navbar {
+  height: 6vh;
+  width: 100vw;
+  box-sizing: border-box;
+  padding: 0 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+}
+
+.appname {
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.searchbar {
+  box-sizing: border-box;
+  height: 4vh;
+  display: flex;
+  align-items: center;
+  background-color: rgb(44, 40, 40);
+  border-radius: 2px;
+}
+
+.searchbar input {
+  height: 100%;
+  width: 30vw;
+  padding: 0 5px;
+  font-family: inherit;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  border-radius: 2px 0 0 2px;
+}
+
+.searchicon {
+  display: flex;
+  height: 100%;
+  width: 4vw;
+  align-items: center;
+  justify-content: space-around;
+  cursor: pointer;
+}
+
+.account {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 3px 6px;
+}
+/* 
+.account span {
+  margin-right: 4px;
+} */
